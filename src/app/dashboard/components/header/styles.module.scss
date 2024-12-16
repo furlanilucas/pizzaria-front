@@ -1,39 +1,44 @@
-.headerContainer{
-    height:5rem;
+
+.headerContainer {
+    height: 5rem;
 }
-.headerContent{
+
+.headerContent {
     max-width: 1280px;
     height: 5rem;
     margin: 0 auto;
-    padding:0 16px;
+    padding: 0 16px;
 
     display: flex;
     align-items: center;
     justify-content: space-between;
 
-    nav{
+ 
+    nav {
         display: flex;
         align-items: center;
-        gap:14px;
+        gap: 14px;
 
-        a{
-            color:var(--white);
+        a {
+            color: var(--white);
             text-decoration: none;
-            transition: color .8s;
+            transition: color 0.8s;
 
-            &:hover{
-                color:var(--red-900);
+            &:hover {
+                color: var(--red-900);
             }
         }
-        button{
-            border:0;
+
+
+        button {
+            border: 0;
             background: transparent;
-            margin-left:16px;
+            margin-left: 16px;
             transition: transform 0.5s;
-            &:hover{
-                transform:scale(1.2);
+
+            &:hover {
+                transform: scale(1.2);
             }
         }
     }
-    
 }
