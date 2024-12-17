@@ -32,6 +32,7 @@ export function Header() {
                 
                 {/* Navegação */}
                 <nav>
+                    <Link href="/dashboard">Dashboard</Link>
                     <Link href="/dashboard/category">Categoria</Link>
                     <Link href="/dashboard/product">Produto</Link>
 
